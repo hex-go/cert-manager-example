@@ -1,0 +1,18 @@
+apiVersion: cert-manager.io/v1alpha2
+kind: Certificate
+metadata:
+  name: example-com
+  namespace: mars
+spec:
+  secretName: example-com-tls
+  issuerRef:
+    name: ca-issuer
+    # We can reference ClusterIssuers by changing the kind here.
+    # The default value is Issuer (i.e. a locally namespaced Issuer)
+    kind: Issuer
+  commonName: icos.city
+  organization:
+  - Example CA
+  dnsNames:
+  - test-cert.mars
+  - test-cert.icos.city
