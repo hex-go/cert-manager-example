@@ -43,20 +43,7 @@ kubectl --kubeconfig=/home/hex/m1c2 create secret tls test-secret  --cert=icos.c
 # reference
 关于grpc的内容，需要参考此链接
 
-[grpc_github](https://github.com/grpc/grpc)
-
-[grpc_go_quick_start](https://grpc.io/docs/languages/go/quickstart/)
-
-[grpc python quick-start](https://grpc.io/docs/languages/python/quickstart/)
-
-[grpc_java_quick-start](https://github.com/grpc/grpc-java)
-
-[ingress-nginx-grpcExample](https://github.com/kubernetes/ingress-nginx/tree/master/docs/examples/grpc)
-
-[ingress-nginx-grpc-DOC](https://kubernetes.github.io/ingress-nginx/examples/grpc/)
-
-[ingress-nginx-grocExampleImage](https://github.com/kubernetes/ingress-nginx/tree/master/images/grpc-fortune-teller)
-
+[博客--介绍ingress-nginx配置grpc](https://hex-py.github.io/2020/11/06/kubernetes-2020-11-06-Kubernetes-ingress-nginx%E9%85%8D%E7%BD%AEgrpc%E6%9C%8D%E5%8A%A1/)
 关于cert-manager的内容
 
 [Automatic TLS certificates with cert-manager and ingress-nginx](https://atelierhsn.com/2020/07/cert-manager-ingress/)
